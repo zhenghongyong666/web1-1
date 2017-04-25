@@ -1,0 +1,8 @@
+body{font:12px Arial;
+color:gray;
+line-height:2em;
+a:link{color:#72272;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.lanmu{text-size:14px; color:#b9f605;font-weight:bolder;}
+.lanmu{a:link{color:white;}a:hover{text-decoration:none;color: #b9f605}}
+.zuihou{a:link{color:#fdb306;}}
