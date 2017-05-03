@@ -1,0 +1,11 @@
+ul li.p{
+	font-size: 14px;
+	list-style-image: url(../images/list.png)
+}
+.p a:hover{
+	text-decoration: none;
+	color: #b9f605;
+}
+ul li.list{
+	list-style-type: disc;
+}

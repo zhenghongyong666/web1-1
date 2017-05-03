@@ -1,0 +1,18 @@
+
+#parents{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 20px;
+	font-weight: normal;
+	color: #686868;
+}
+#author{
+	font-family: "Arial";
+	font-size: 12px;
+	color: #a9a8a8;
+}
+.pre{
+	color: #22a3d3;
+}
+p{
+	text-indent: 2em;
+}
