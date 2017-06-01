@@ -1,0 +1,219 @@
+body{
+	background:url(../images/bodybg.gif);
+
+	font-size: 12px;
+	color: #522a06;
+	padding: 0px;
+	font-family: 宋体；
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+#header{
+	height: 205px;
+	background: url(../images/bg.gif) no-repeat center top;
+}
+#banner{
+	width: 1000px;
+	height: 164px;
+}
+#logo{
+	padding-left: 25px;
+	padding-top: 38px;
+}
+#nav{
+	height: 40px;
+	background-image: url(../images/nav.jpg);
+}
+.nav_body{
+	width: 1000px;
+	text-align: center;
+}
+.nav_content{
+	width: 800px;
+	font-weight: bold;
+	color: #fff;
+	float: left;
+	padding-left: 320px;
+}
+.nav_content a{
+	line-height:40px;
+	color: #fff;
+
+}
+.nav_content a:hover{
+	color: #f9f603;
+	text-decoration: none;
+}
+.nav_search{
+	width: 200px;
+	float: left;
+	line-height: 40px;
+	padding-left: 40px;
+}
+#text{
+	width: 140px;
+	height: 19px;
+	background-color: #f8f5ee;
+}
+#button{
+	width: 44px;
+	height: 21px;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #f8f5ee;
+}
+#content{
+	width: 1080px;
+	text-align: center;
+	clear: both;
+	margin-left: 300px;
+}
+#content_top{
+	overflow: hidden;
+}
+#content_bottom_left{
+	width: 770px;
+	float: left;
+}
+#content_bottom_right{
+	width: 350px;
+	padding-top: 20px;
+	float: right;
+	margin-top:20px; 
+}
+
+.news_pic{
+	width: 324px;
+	height: 243px;
+	float: left;
+	background-image: url(../images/news_bg.png);
+}
+#pic{
+	width: 300px;
+	height: 200px;
+}
+#word{
+	width: 300px;
+	height: 22px;
+	text-align: center;
+}
+.news_list {
+	width: 390px;
+	margin-left:38px;
+	float: left;
+	text-align: left;
+}
+.more{
+	float: right;
+}
+.list1{
+	line-height: 30px;
+}
+.time{
+	float: right;
+}
+.news_announce{
+	width: 277px;
+	height: 205px;
+	margin-top: 20px;
+	float:right;
+	background-image: url(../images/board_bg.png);
+}
+.list2{
+	float: left;
+	line-height: 30px;
+}
+.academic{
+	width: 370px;
+	text-align: left;
+	float: left;
+}
+#aca{
+	height: 54px;
+}
+.book_news{
+	width: 370px;
+	margin-left: 25px;
+	float: left;
+	text-align: left;
+}
+#book{
+	height: 54px;
+}
+.fengcai{
+	width: 760px;
+	clear: both;
+	text-align: left;
+}
+.fengcai_in{
+	background: url(../images/fengcai_bg2.png);
+	width: 635px;
+	height: 135px;
+	padding: 20px;
+	text-align: left;
+}
+.list3{
+	display: inline;
+}
+.feng{
+	height: 136px;
+	width: 140px;
+}
+
+#show{
+	height: 23px;
+}
+.art{
+	width: 280px;
+	background: url(../images/show_bg.png) no-repeat;
+	float: right;
+	height: 400px;
+}
+#mingjia{
+	height: 200px;
+	text-align: center;
+	margin-top: 20px;
+}
+p{
+	line-height: 22px;
+	display: inline;
+}
+.text{
+	height: 110px;
+	text-align: left;
+	width: 245px;
+	margin: 20px;
+}
+#gengduo{
+	float: right;
+	background-color: red;
+	color: white;
+}
+.footer{
+	height: 105px;
+	clear: both;
+	background: url(../images/foot.gif);
+}
+.list4{
+	display: inline;
+	text-align: center;
+}
+.footer_in{
+	padding: 10px 550px;
+	width: 500px;
+	line-height: 15px;
+}
+
+.feet{
+	text-align: center;
+}

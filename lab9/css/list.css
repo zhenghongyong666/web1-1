@@ -1,0 +1,191 @@
+body{
+	background:url(../images/bodybg.gif);
+	font-size: 12px;
+	color: #522a06;
+	padding: 0px;
+	font-family: 宋体；
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+#header{
+	height: 205px;
+	background: url(../images/bg.gif) no-repeat center top;
+}
+#banner{
+	width: 1000px;
+	height: 164px;
+}
+#logo{
+	padding-left: 25px;
+	padding-top: 38px;
+}
+#nav{
+	height: 40px;
+	background-image: url(../images/nav.jpg);
+}
+.nav_body{
+	width: 1000px;
+	text-align: center;
+}
+.nav_content{
+	width: 800px;
+	font-weight: bold;
+	color: #fff;
+	float: left;
+	padding-left: 320px;
+}
+.nav_content a{
+	line-height:40px;
+	color: #fff;
+
+}
+.nav_content a:hover{
+	color: #f9f603;
+	text-decoration: none;
+}
+.nav_search{
+	width: 200px;
+	float: left;
+	line-height: 40px;
+	padding-left: 40px;
+}
+#text{
+	width: 140px;
+	height: 19px;
+	background-color: #f8f5ee;
+}
+#button{
+	width: 44px;
+	height: 21px;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #f8f5ee;
+}
+
+.mybody{
+	width: 1100px;
+	float: left;
+	margin-left: 250px;
+}
+.mybody_left{
+	width: 200px;
+	float: left;
+}
+.mybody_right{
+	width: 700px;
+	float: left;
+	margin-left: 16px;
+	border: 1px solid;
+}
+#dangqian{
+	float: left;
+}
+.mybody_left_top{
+	background-image: url(../images/bg.png);
+	margin-bottom: 20px;
+	text-align: left;
+	height: 230px;
+	border:1px solid #c9baa5;
+}
+.list6{
+	line-height: 30px;
+	padding-left: 30px;
+}
+.mybody_left_medium{
+	background-image: url(../images/bg.png);
+	height: 170px;
+	text-align: left;
+	margin-bottom: 20px;
+	border:1px solid #c9baa5;
+}
+.mybody_left_foot{
+	background-image: url(../images/bg.png);
+	height: 64px;
+	width: 200px;
+}
+
+
+
+.mybody_right_top{
+	width: 883px;
+	background-image: url(../images/bg.png);
+	height: 30px;
+	border:1px solid #c9baa5;
+	padding-top:10px; 
+
+}
+.mybody_right_medium
+{
+	width: 880px;
+	border: 1px solid;
+}
+#zhaosheng{
+	font-size: 16px;
+	margin: 20px;
+}
+.shufa{
+	float: right;
+}
+.list7{
+	line-height: 30px;
+}
+
+.mybody_right_footer{
+	width: 600px;
+	height: 30px;
+	margin-left: 180px;
+}
+.wei{
+	display: inline;
+	border:1px solid;
+	padding: 5px 13px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	height: 105px;
+	clear: both;
+	background: url(../images/foot.gif);
+}
+.list4{
+	display: inline;
+	text-align: center;
+}
+.footer_in{
+	padding: 10px 650px;
+	width: 500px;
+	line-height: 15px;
+}
+
+.feet{
+	text-align: center;
+}
+
