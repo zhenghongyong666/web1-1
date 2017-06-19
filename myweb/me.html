@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>自我介绍- </title>
+<style>
+
+</style>
+</head>
+
+<body onload=startclock()>
+
+<div id="banner">
+	<div class="logo">我的个人主页</div>
+</div>
+<div id="nav">
+	<div id="date">
+<form name="clock"><!--clock start-->
+<script language="JavaScript">
+var timerID = null;
+var timerRunning = false;
+function stopclock (){
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;}
+function startclock () {
+stopclock();
+showtime();}
+function showtime () {
+var now = new Date();
+var hours = now.getHours();
+var minutes = now.getMinutes();
+var seconds = now.getSeconds()
+var timeValue = now.getYear()+"年"+(now.getMonth()+1)+"月"+now.getDate()+"日" +((hours >= 12) ? " 下午 " : " 上午 " )
+timeValue += ((hours >12) ? hours -12 :hours)
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+document.clock.thetime.value = timeValue;
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;}
+</script>
+<input name="thetime" style="" size="28" type="text"></form><!--clock end-->
+	</div>
+	<ul id="menu">
+  <li><a href="me.html">首页</a></li>
+  <li><a href="#">简单介绍</a>
+    <ul>
+    <li><a href="me.html">作者介绍</a></li>
+    <li><a href="me.html">网站介绍</a></li>
+    </ul>
+  </li>
+  <li><a href="#">个人相册</a>
+    <ul>
+    <li><a href="me.html">我的照片</a></li>
+    <li><a href="#">班级相册</a></li>
+    <li><a href="#">风景图片</a></li>
+    </ul>
+  </li>
+  <li><a href="contact.html">联系方式</a>
+  </li>
+	</ul>
+</div>
+<div id="main">
+	<div id="left">
+		<h1>公告</h1>
+		<div class="notice">
+		  <p><marquee direction="up" loop="-1" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="2" height="120" width="140">大家好，欢迎光临我的个人主页。<br />——姓名：郑宏勇<br />学号：2016011600 </marquee></p>
+		</div>
+		<h1>友情链接</h1>
+		<ul class="link">
+		<li><a href="#" target="_blank" />我的学校</a></li>
+		<li><a href="#" target="_blank">网页作业</a></li>
+		<li><a href="http://sina.com.cn" target="_blank" />新  浪</a></li>
+		<li><a href="http://baidu.com">百 度</a></a></li>
+		</ul>
+		<h1></h1>
+			<div class="time"><!--时间 start-->
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="150" height="120">
+<param name="movie" value="images/time.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent"> <!--这里代码可使Flash背景透明 -->
+<embed src="images/time.swf" width="150" height="120" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
+</object><!--时间 end-->
+			</div>
+	</div>
+	<div id="mid">
+		<div class="me-pic"></div>
+		<div class="me-info">
+			<ul>
+				<li>姓名：郑宏勇</li>
+				<li>学号：2016011600</li>
+				<li>班级：6班</li>
+				<li>学校：河北师范大学</li>
+				<li>爱好：体育</li>
+			</ul>
+		</div>
+		
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="copy"><a href="webinfo.html">网站介绍</a> | <a href="me.html">自我介绍</a> | <a 
+	href="photo.html">个人相册</a> | <a href="contact.html">联系方式</a><br />
+	学校<br />Copyright 2012 XXZ All Right Served.</div>
+</div>
+</body>
+</html>
