@@ -1,0 +1,9 @@
+#picScroll
+{
+	overflow: hidden;
+	width: 600px;
+	white-space: nowrap;
+}
+img{
+	width: 150px;
+}
